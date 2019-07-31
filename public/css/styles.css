@@ -21,8 +21,8 @@ body {
 }
 
 footer {
-    color: #888888;
-    border-top: ipx solid #eeeeee;
+    color: #ece5e5;
+    border-top: ipx solid #e2dcdc;
     margin-top: 16px;
     padding: 16px 0;
 }
@@ -58,7 +58,7 @@ h1 {
 }
 
 header a {
-    color: #ebdfdf;
+    color: #ffffff;
     margin-right: 16px;
     text-decoration: none;
 }

@@ -38,7 +38,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'Welcome to our mini web app. Use this website to check your weather at any minute of the day. Simply provide a name of state or city or country, state code or city code in the search box and press enter. Thanks you for using our app!',
+        helpText: 'Welcome to our mini web app. Use this website to check your weather at any minute of the day. Simply provide a name of state or city or country, state code or city code in the search box and press enter. Thank you for using our app!',
         title: 'Help',
         name: 'Oluwafemi Egbodofo Faby'
     })
