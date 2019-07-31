@@ -8,6 +8,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
+    background: url('https://www.maketecheasier.com/assets/uploads/2013/11/WeatherWallpaper-Beautiful-Live-Wallpaper.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
 
 .main-content {
@@ -31,8 +37,28 @@ h1 {
     margin-bottom: 16px;
 }
 
+.pb {
+    color: goldenrod;
+    font-size: 3rem;
+}
+
+.indexOutput {
+    font-size: 1rem;
+    color: white;
+    /* background-color: white; */
+    cursor: pointer;
+    box-shadow: #888888;
+    border-radius: 5px;
+    /* margin: 10px;
+    padding: 10px; */
+
+    background-image:
+        linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+        url('https://theultralinx.com/.image/t_share/MTQ3ODYzNTUzMTM3NzE0Mjc4/envelope-blue.jpg');
+}
+
 header a {
-    color: #888888;
+    color: #ebdfdf;
     margin-right: 16px;
     text-decoration: none;
 }

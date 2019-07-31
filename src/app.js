@@ -24,23 +24,23 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Weather',
-        name: 'Faby'
+        title: 'Check Realtime Weather',
+        name: 'Oluwafemi Egbodofo Faby'
     })
 })
 
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'Faby'
+        name: 'Oluwafemi Egbodofo Faby'
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'This is my helpful text',
+        helpText: 'Welcome to our mini web app. Use this website to check your weather at any minute of the day. Simply provide a name of state or city or country, state code or city code in the search box and press enter. Thanks you for using our app!',
         title: 'Help',
-        name: 'Faby'
+        name: 'Oluwafemi Egbodofo Faby'
     })
 })
 
@@ -88,7 +88,7 @@ app.get('/products', (req, res) => {
 app.get('/help/*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Faby',
+        name: 'Oluwafemi Egbodofo Faby',
         errorMessage: 'Help article not found'
     })
 }) 
@@ -96,7 +96,7 @@ app.get('/help/*', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Faby',
+        name: 'Oluwafemi Egbodofo Faby',
         errorMessage: 'Page not found'
     })
 })
@@ -116,7 +116,7 @@ app.listen(port, () => {
 
 // app.get('/help', (req, res) => {
 //     res.send([{
-//         name: 'Faby'
+//         name: 'Oluwafemi Egbodofo Faby'
 //     }, {
 //         name: 'Wemi'
 //     }])
