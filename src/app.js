@@ -105,23 +105,3 @@ app.get('*', (req, res) => {
 app.listen(port, () => {
     console.log('Server is up on port ' + port)
 })
-
-
-
-
-
-// app.get('', (req, res) => {
-//     res.send('<h1>Weather</h1>')
-// })
-
-// app.get('/help', (req, res) => {
-//     res.send([{
-//         name: 'Oluwafemi Egbodofo Faby'
-//     }, {
-//         name: 'Wemi'
-//     }])
-// })
-
-// app.get('/about', (req, res) => {
-//     res.send('<h1>About</h1>')
-// })
